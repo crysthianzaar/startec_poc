@@ -1,18 +1,18 @@
-class Projeto {
+class Atendimento {
   String empresa;
   String etapa;
   String numeroAtendimento;
   String solucao;
   int id;
 
-  Projeto(
+  Atendimento(
       {this.empresa,
       this.etapa,
       this.numeroAtendimento,
       this.solucao,
       this.id});
 
-  Projeto.fromJson(Map<String, dynamic> json) {
+  Atendimento.fromJson(Map<String, dynamic> json) {
     empresa = json['Empresa'];
     etapa = json['Etapa'];
     numeroAtendimento = json['NumeroAtendimento'];
